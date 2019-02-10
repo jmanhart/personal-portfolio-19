@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import Main from './main.js'
 
 // Importing in Components
-import NavBar from './components/nav-bar/index.js'
+// import NavBar from './components/nav-bar/index.js'
 
 export default class App extends Component{
     render(){

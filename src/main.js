@@ -15,4 +15,43 @@ const Main = () => (
 )
 
 export default Main
+{/*
+<Route
+          render={({ location }) => {
+            const { pathname } = location;
+            return (
+              <TransitionGroup>
+                <CSSTransition 
+                  key={pathname}
+                  classNames="page"
+                  timeout={{
+                    enter: 1000,
+                    exit: 1000,
+                  }}
+                >
+                  <Route
+                    location={location}
+                    render={() => (
+                      <Switch>
+                        <Route
+                          exact
+                          path="/"
+                          component={Home}
+                        />
+                        <Route
+                          path="/about"
+                          component={About}
+                        />
+                        <Route
+                          component={Error404}
+                        />
+                      </Switch>
+                    )}
+                  />
+                </CSSTransition>
+              </TransitionGroup>
+            );
+          }}
+        />
 
+        */}
