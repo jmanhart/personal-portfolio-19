@@ -4,15 +4,18 @@ import React, { Component } from 'react';
 import Main from './main.js'
 
 // Importing in Components
-// import NavBar from './components/nav-bar/index.js'
+import AppFooter from './components/app-footer/index.js';
+
+// Importing in Styles
+import './App.scss';
 
 export default class App extends Component{
     render(){
         return(
-          < >
- 
+          <div id="app-container">
             <Main />
-          </>
+            <AppFooter />
+          </div >
         )
     }
 }
