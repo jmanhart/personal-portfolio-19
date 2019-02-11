@@ -11,7 +11,7 @@ export default class Footer extends Component{
                 <dl className="outro">
                     <div className="col left">
                         <dt>Case Studies</dt>
-                            <dd>Project Lottie</dd>
+                            <Link to="/case-study/garmin/lottie"><dd>Project Lottie</dd></Link>
                             <dd>Mosey</dd>
                             <dd>Freebird</dd>
                             <dd>Cobb Connection</dd>
