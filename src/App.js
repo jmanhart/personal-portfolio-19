@@ -4,7 +4,8 @@ import React, { Component } from 'react';
 import Main from './main.js'
 
 // Importing in Components
-import AppFooter from './components/app-footer/index.js';
+// import AppFooter from './components/app-footer/index.js';
+import Footer from './components/footer/index.js';
 
 // Importing in Styles
 import './App.scss';
@@ -14,7 +15,7 @@ export default class App extends Component{
         return(
           <div id="app-container">
             <Main />
-            <AppFooter />
+            <Footer />
           </div >
         )
     }

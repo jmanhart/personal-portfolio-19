@@ -16,7 +16,7 @@ export default class Home extends Component{
           <div className="container">
 
             <div id="header">
-                <img src={photo} img="true" alt="Me"/>
+                <img src={photo} id="profile-image" img="true" alt="Me"/>
                 <h1>Hello, I'm <u>John!</u></h1>
             </div>
             <div id="about">

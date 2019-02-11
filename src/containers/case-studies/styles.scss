@@ -1,0 +1,37 @@
+
+
+
+
+
+.full-image{
+    float: left;
+    width: 90%;
+    text-align: center;
+    margin: 30px 5%;
+    min-height: 100px;
+    height: 30em;
+    background-color: rgba(0,0,0,0.4);
+    img {
+        display: inline-block;
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 980px){
+    .top {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%!important;
+    }
+}
+
+.image{
+    float: left;
+    width: 100%;
+    background: #f7f8fc;
+    min-height: 200px;
+    margin: 30px 0 30px;
+    background-color: rgba(0,0,0,0.4);
+}

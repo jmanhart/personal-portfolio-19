@@ -4,6 +4,8 @@ import { Switch, Route } from 'react-router-dom'
 import Home from './containers/home/index.js';
 import About from './containers/about/index.js';
 
+
+
 //Importing Case Studies
 import CaseStudyGarminLottie from './containers/case-studies/garmin-lottie.js';
 
