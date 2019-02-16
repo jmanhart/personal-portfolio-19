@@ -17,38 +17,47 @@ export default class CaseStudyGrid extends Component{
                 
                 {/* Case Study One - Lottie - Garmin */}
                 <li>
-                    <Link to="/case-study/garmin/lottie">
+                    <Link to="/case-study/mobile-animations">
                         <div></div>
-                        <h3>Project Title</h3> 
-                        <h3>Lorem ipsum dolor amet vice banh mi aesthetic</h3>
+                        <h3>Mobile Animations</h3> 
+                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
                     </Link>
                 </li>
 
                 {/* Case Study Two - Mosey */}
                 <li>
-                    <a href="somthing">
+                    <Link to="/case-study/mobile-animations">
                         <div></div>
-                        <h3>Project Title</h3>  
-                        <h3>Lorem ipsum dolor amet vice banh mi aesthetic</h3>
-                    </a>
+                        <h3>Mosey App</h3>  
+                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
+                    </Link>
                 </li>
 
                 {/* Case Study Three - How Many Free birds */}
                 <li>
-                    <a href="somthing">
+                    <Link to="/case-study/mobile-animations">
                         <div></div>
-                        <h3>Project Title</h3>  
-                        <h3>Lorem ipsum dolor amet vice banh mi aesthetic</h3>
-                    </a>
+                        <h3>Free as a Bird</h3>  
+                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
+                    </Link>
                 </li>
 
                 {/* Case Study Three - Cobb */}
                 <li>
-                    <a href="somthing">
+                    <Link to="/case-study/mobile-animations">
                         <div></div>
-                        <h3>Project Title</h3>  
-                        <h3>Lorem ipsum dolor amet vice banh mi aesthetic</h3>
-                    </a>
+                        <h3>Cobb</h3>  
+                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
+                    </Link>
+                </li>
+
+                {/* Case Study Three - Netflix */}
+                <li>
+                    <Link to="/case-study/mobile-animations">
+                        <div></div>
+                        <h3>Cobb</h3>  
+                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
+                    </Link>
                 </li>
 
             </ul>

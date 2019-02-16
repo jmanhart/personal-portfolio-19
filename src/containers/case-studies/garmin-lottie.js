@@ -9,10 +9,14 @@ import './../../App.scss';
 // Import Local Styles
 import './styles.scss';
 
+// Importing Components
+import ButtonBack from '../../components/buttons/button-back.js';
+
 export default class CaseStudyGarminLottie extends Component{
     render(){
         return(
             <>
+            <ButtonBack buttonLabel="Back" linkToPath="/" />
                 <div className="container">
                     <div id="header">
                         <h1>Mobile Animations</h1>

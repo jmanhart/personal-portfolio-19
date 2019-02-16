@@ -15,7 +15,7 @@ const Main = () => (
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route path='/about' component={About}/>
-      <Route path='/case-study/garmin/lottie' component={CaseStudyGarminLottie}/>
+      <Route path='/case-study/mobile-animations' component={CaseStudyGarminLottie}/>
     </Switch>
   </main>
 )
