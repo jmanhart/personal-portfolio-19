@@ -7,6 +7,38 @@ import photo from './../../images/me-blk-sun.jpg';
 // import styles
 import './../../App.scss';
 
+
+
+const gridData = [
+    {
+        "path": "/case-study/mobile-animations",
+        "title": "Mobile Aniamtions",
+        "description":"Lorem ipsum dolor amet vice banh mi aesthetic"
+    },
+    {
+        "path": "/case-study/mobile-animations",
+        "title": "Netflix",
+        "description":"Lorem ipsum dolor amet vice banh mi aesthetic"
+    },
+    {
+        "path": "/case-study/mobile-animations",
+        "title": "Mosey App",
+        "description":"Lorem ipsum dolor amet vice banh mi aesthetic"
+    },
+    {
+        "path": "/case-study/mobile-animations",
+        "title": "Free Bird",
+        "description":"Lorem ipsum dolor amet vice banh mi aesthetic"
+    },
+    {
+        "path": "/case-study/mobile-animations",
+        "title": "Cobb",
+        "description":"Lorem ipsum dolor amet vice banh mi aesthetic"
+    },
+]
+
+
+
 export default class CaseStudyGrid extends Component{
     render(){
         return(
@@ -14,55 +46,20 @@ export default class CaseStudyGrid extends Component{
             {/* TODO: Map this */}
             <ul className="caseStudies">
             <h4>Case Studies</h4>
-                
-                {/* Case Study One - Lottie - Garmin */}
-                <li>
-                    <Link to="/case-study/mobile-animations">
-                        <div></div>
-                        <h3>Mobile Animations</h3> 
-                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
-                    </Link>
-                </li>
-
-                {/* Case Study Two - Mosey */}
-                <li>
-                    <Link to="/case-study/mobile-animations">
-                        <div></div>
-                        <h3>Mosey App</h3>  
-                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
-                    </Link>
-                </li>
-
-                {/* Case Study Three - How Many Free birds */}
-                <li>
-                    <Link to="/case-study/mobile-animations">
-                        <div></div>
-                        <h3>Free as a Bird</h3>  
-                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
-                    </Link>
-                </li>
-
-                {/* Case Study Three - Cobb */}
-                <li>
-                    <Link to="/case-study/mobile-animations">
-                        <div></div>
-                        <h3>Cobb</h3>  
-                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
-                    </Link>
-                </li>
-
-                {/* Case Study Three - Netflix */}
-                <li>
-                    <Link to="/case-study/mobile-animations">
-                        <div></div>
-                        <h3>Cobb</h3>  
-                        <p>Lorem ipsum dolor amet vice banh mi aesthetic</p>
-                    </Link>
-                </li>
-
+            {gridData.map((item) => {
+                return (
+                    <li>
+                        <Link to={item.path}>
+                            <div></div>
+                            <h3>{item.title}</h3> 
+                            <p>{item.description}</p>
+                        </Link>
+                    </li>  
+                )
+            })}
             </ul>
           </div>
-          
         )
     }
 }
+
