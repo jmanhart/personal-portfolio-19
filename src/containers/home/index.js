@@ -6,10 +6,10 @@ import photo from './../../images/me-blk-sun.jpg';
 
 // Import styles
 import './../../App.scss';
-import Grid from '../../components/grid';
 
-// Import Data
-import data from './../../data.js';
+// Import Components
+import Grid from '../../components/grid';
+import List from '../../components/list';
 
 
 export default class Home extends Component{
@@ -21,11 +21,8 @@ export default class Home extends Component{
                 <h1>Hello, I'm <Link to="/about"><u>John!</u></Link></h1>
                 <h2>A Designer & Developer living in Kansas City and working for <u>Garmin</u>.</h2>
             </div>
-            <Grid 
-                path={data.path}
-                title={data.title}
-                description={data.description}
-            />
+            <Grid />
+            <List />
           </div>
           
         )
@@ -33,6 +30,13 @@ export default class Home extends Component{
 }
 
 {/*
+
+            <Grid 
+                path={data.path}
+                title={data.title}
+                description={data.description}
+            />
+
             <Grid 
                 path={data.path}
                 title={data.title}

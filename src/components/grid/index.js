@@ -18,9 +18,9 @@ export default class Grid extends Component{
             {/* TODO: Map this */}
             <ul className="caseStudies">
             <h4>Case Studies</h4>
-            {data.map((item) => {
+            {data.map((item, index) => {
                 return (
-                    <li>
+                    <li key={index}>
                         <Link to={item.path}>
                             <div></div>
                             <h3>{item.title}</h3> 
