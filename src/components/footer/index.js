@@ -36,22 +36,26 @@ const footerData = {
         {
             "id":"motion-animations",
             "title":"Motion Animations",
-            "path": "/case-study/mobile-animations"
+            "path": "/case-study/mobile-animations",
+            "descriptionshort": "Lorem ipsum dolor amet xOXO aesthetic sriracha chartreuse, meditation celiac wayfarers banh mi bitters quinoa."
         },
         {
             "id":"mosey",
             "title":"Mosey",
-            "path": "/case-study/mobile-animations"
+            "path": "/case-study/mobile-animations",
+            "descriptionshort":"Lorem ipsum dolor amet xOXO aesthetic sriracha chartreuse, meditation celiac wayfarers banh mi bitters quinoa."
         },
         {
             "id":"freebird",
             "title":"Freedbird",
-            "path": "/case-study/mobile-animations"
+            "path": "/case-study/mobile-animations",
+            "descriptionshort":"Lorem ipsum dolor amet xOXO aesthetic sriracha chartreuse, meditation celiac wayfarers banh mi bitters quinoa."
         },
         {
             "id":"cobb",
             "title":"Cobb App",
-            "path": "/case-study/mobile-animations"
+            "path": "/case-study/mobile-animations",
+            "descriptionshort":"Lorem ipsum dolor amet xOXO aesthetic sriracha chartreuse, meditation celiac wayfarers banh mi bitters quinoa."
         }
     ]
 }
