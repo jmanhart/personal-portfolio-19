@@ -4,6 +4,60 @@ import { Link } from 'react-router-dom';
 //Importing Local Styles
 import './styles.scss';
 
+const footerData = {
+    "socialmedia": [
+        {
+            "id":"github",
+            "title":"Github",
+            "path": "https://github.com/jmanhart"
+        },
+        {
+            "id":"dribbble",
+            "title":"Dribbble",
+            "path": "https://dribbble.com/manhart"
+        },
+        {
+            "id":"twitter",
+            "title":"Twitter",
+            "path": "https://twitter.com/johnmanhart"
+        },
+        {
+            "id":"medium",
+            "title":"Medium",
+            "path": "https://medium.com/@JohnManhart"
+        },
+        {
+            "id":"linkedin",
+            "title":"Linkedin",
+            "path":"https://www.linkedin.com/in/john-manhart/"
+        }
+    ],
+    "casestudies": [
+        {
+            "id":"motion-animations",
+            "title":"Motion Animations",
+            "path": "/case-study/mobile-animations"
+        },
+        {
+            "id":"mosey",
+            "title":"Mosey",
+            "path": "/case-study/mobile-animations"
+        },
+        {
+            "id":"freebird",
+            "title":"Freedbird",
+            "path": "/case-study/mobile-animations"
+        },
+        {
+            "id":"cobb",
+            "title":"Cobb App",
+            "path": "/case-study/mobile-animations"
+        }
+    ]
+}
+
+
+
 export default class Footer extends Component{
     render(){
         return(
@@ -11,10 +65,13 @@ export default class Footer extends Component{
                 <dl className="outro">
                     <div className="col left">
                         <dt>Case Studies</dt>
-                            <Link to="/case-study/garmin/lottie"><dd>Project Lottie</dd></Link>
-                            <dd>Mosey</dd>
-                            <dd>Freebird</dd>
-                            <dd>Cobb Connection</dd>
+                        {footerData.casestudies.map((item, index) => {
+                            return (
+                            <Link key={index} to={item.path}>
+                                <dd>{item.title}</dd> 
+                            </Link>
+                            )
+                        })}
                     </div>
                     <div className="col center">
                         <dt>Writing</dt>
@@ -24,12 +81,13 @@ export default class Footer extends Component{
                     </div>
                     <div className="col right">
                         <dt>Social Media</dt>
-                                <dd>Github</dd>
-                                <dd>Dribbble</dd>
-                                <dd>Twitter</dd>
-                                <dd>Letterboxd</dd>
-                                <dd>Medium</dd>
-                                <dd>Linkedin</dd>
+                        {footerData.socialmedia.map((item, index) => {
+                            return (
+                            <a key={index} href={item.path}>
+                                <dd>{item.title}</dd> 
+                            </a>
+                            )
+                        })}
                     </div>
                 </dl>
           </div>

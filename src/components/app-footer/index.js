@@ -4,6 +4,31 @@ import { Link } from 'react-router-dom';
 //Importing Local Styles
 import './styles.scss';
 
+const footerData = [
+    {
+        "id":"github",
+        "title":"Github",
+        "path": "https://github.com/jmanhart"
+    },
+    {
+        "id":"dribbble",
+        "title":"Dribbble",
+        "path": "https://dribbble.com/manhart"
+    },
+    {
+        "id":"twitter",
+        "title":"Twitter",
+        "path": "https://twitter.com/johnmanhart"
+    },
+    {
+        "id":"medium",
+        "title":"Medium",
+        "path": "https://medium.com/@JohnManhart"
+    },
+]
+
+
+
 export default class AppFooter extends Component{
     render(){
         return(
@@ -20,16 +45,17 @@ export default class AppFooter extends Component{
                         <dt>Writing</dt>
                                 <dd>"How I keep UX tasks organized with Atom."</dd>
                                 <dd>"How to customize Atom for your UX tasks.</dd>
-                                <dd>Item 03</dd>
+                                <dd>Item 0333</dd>
                     </div>
                     <div className="col right">
                         <dt>Social Media</dt>
-                                <dd>Github</dd>
-                                <dd>Dribbble</dd>
-                                <dd>Twitter</dd>
-                                <dd>Letterboxd</dd>
-                                <dd>Medium</dd>
-                                <dd>Linkedin</dd>
+                        {footerData.map((item, index) => {
+                            return (
+                            <Link key={index} to={item.path}>
+                                <h3>{item.title}</h3> 
+                            </Link>
+                            )
+                        })}
                     </div>
                 </dl>
           </div>
