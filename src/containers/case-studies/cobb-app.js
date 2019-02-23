@@ -10,9 +10,9 @@ import './../../App.scss';
 import './styles.scss';
 
 // Importing Components
-import ButtonBack from '../../components/buttons/button-back.js';
+import ButtonBack from '../../components/buttons/button-back';
 
-export default class CaseStudyGarminLottie extends Component{
+export default class CobbApp extends Component{
     render(){
         return(
             <>

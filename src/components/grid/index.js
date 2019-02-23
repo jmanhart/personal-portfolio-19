@@ -10,7 +10,6 @@ import './../../App.scss';
 // Import styles
 import data from './../../data.js';
 
-
 export default class Grid extends Component{
     render(){
         return(
@@ -18,7 +17,7 @@ export default class Grid extends Component{
             {/* TODO: Map this */}
             <ul className="caseStudies">
             <h4>Case Studies</h4>
-            {data.map((item, index) => {
+            {data.casestudies.map((item, index) => {
                 return (
                     <li key={index}>
                         <Link to={item.path}>
