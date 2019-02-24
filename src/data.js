@@ -30,12 +30,12 @@ const data = {
         {
             "id":"writing-02",
             "title":"How I keep UX tasks organized with Atom.",
-            "path": "https://github.com/jmanhart"
+            "path": "https://blog.prototypr.io/how-i-keep-ux-tasks-organized-with-atom-31cafd5215d1"
         },
         {
             "id":"writing-02",
             "title":"How to customize Atom for your UX tasks.",
-            "path": "https://dribbble.com/manhart"
+            "path": "https://medium.com/@JohnManhart/how-to-customize-atom-for-your-ux-tasks-f34105bb06c"
         }
     ],
     "casestudies": [
@@ -44,7 +44,7 @@ const data = {
             "title":"Motion Animations",
             "details": "Garmin • UX Designer • October 2017 – March 2018",
             "path": "/case-study/mobile-animations",
-            "descriptionshort": "Lorem ipsum dolor amet xOXO aesthetic sriracha chartreuse, meditation celiac wayfarers banh mi bitters quinoa."
+            "descriptionshort": "A problem, a library, a mountain"
         },
         {
             "id":"mosey",

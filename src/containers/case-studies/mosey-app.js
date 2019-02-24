@@ -9,8 +9,16 @@ import './../../App.scss';
 // Import Local Styles
 import './styles.scss';
 
+// Importing Data
+import data from './../../data.js'
+
 // Importing Components
 import ButtonBack from '../../components/buttons/button-back';
+
+
+// Temp fix untill a better solution :-D
+// This is the position within the data array!
+const arrOrder = 1
 
 export default class MoseyApp extends Component{
     render(){
@@ -18,10 +26,10 @@ export default class MoseyApp extends Component{
             <>
             <ButtonBack buttonLabel="Back" linkToPath="/" />
                 <div className="container">
-                    <div id="header">
-                        <h1>Mobile Animations</h1>
-                        <h2>A problem, a library, a mountain</h2>
-                        <h3>Garmin • UX Designer • October 2017 – March 2018</h3>
+                <div id="header">
+                        <h1>{data.casestudies[arrOrder].title}</h1>
+                        <h2>{data.casestudies[arrOrder].descriptionshort}</h2>
+                        <h3>{data.casestudies[arrOrder].details}</h3>
                     </div>
                 </div>
                 <div className="full-image top">

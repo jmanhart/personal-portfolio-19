@@ -9,6 +9,9 @@ import './../../App.scss';
 // Import Local Styles
 import './styles.scss';
 
+// Importing Data
+import data from './../../data.js'
+
 // Importing Components
 import ButtonBack from '../../components/buttons/button-back';
 
@@ -19,9 +22,9 @@ export default class MobileAnimations extends Component{
             <ButtonBack buttonLabel="Back" linkToPath="/" />
                 <div className="container">
                     <div id="header">
-                        <h1>Mobile Animations</h1>
-                        <h2>A problem, a library, a mountain</h2>
-                        <h3>Garmin • UX Designer • October 2017 – March 2018</h3>
+                        <h1>{data.casestudies[0].title}</h1>
+                        <h2>{data.casestudies[0].descriptionshort}</h2>
+                        <h3>{data.casestudies[0].details}</h3>
                     </div>
                 </div>
                 <div className="full-image top">
