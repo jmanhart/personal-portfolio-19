@@ -1,6 +1,6 @@
 # Mobile Animations
 This is the landing spot for writing up the Mobile Animations case study.
-
+this is a Skunkworks project
 ------
 
 Simply put we started using a new animation library within our app, but nothing is ever that easy. 
