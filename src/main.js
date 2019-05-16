@@ -11,6 +11,7 @@ import MobileAnimations from './containers/case-studies/mobile-animations';
 import MoseyApp from './containers/case-studies/mosey-app.js';
 import FreeBird from './containers/case-studies/free-bird.js';
 import CobbApp from './containers/case-studies/cobb-app.js';
+import Design from './containers/design/index.js';
 
 
 const Main = () => (
@@ -18,6 +19,7 @@ const Main = () => (
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route path='/about' component={About}/>
+      <Route path='/design' component={Design}/>
       {/* Case Studies */}
       <Route path='/case-study/mobile-animations' component={MobileAnimations}/>
       <Route path='/case-study/mosey-app' component={MoseyApp}/>

@@ -19,7 +19,7 @@ export default class Home extends Component{
             <div id="header">
                 <img src={photo} id="profile-image" img="true" alt="Me"/>
                 <h1>Hello, I'm <Link to="/about"><u>John!</u></Link></h1>
-                <h2>A Designer & Developer living in Kansas City and working for <u>Garmin</u>.</h2>
+                <h3>A Designer & Developer living in Kansas City and working for <u>Garmin</u>.</h3>
             </div>
             <Grid />
             <List />
