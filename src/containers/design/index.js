@@ -6,8 +6,10 @@ import photo from './../../images/me-blk-sun.jpg';
 // import styles
 import './../../App.scss';
 
+
 // Importing Components
 import ButtonBack from '../../components/buttons/button-back.js';
+import horizontalCard from '../../components/cards/horizontal-card.js';
 
 export default class Design extends Component{
     render(){
@@ -69,23 +71,13 @@ export default class Design extends Component{
 
                     <h3 className="header-type-01">Cards</h3>
                     <ul className="button-hovers-more">
-                        <div className="card">
-                            <div className="card-left"></div>
-                            <div className="card-right">
-                                <h4>Lorem ipsum dolor amet.</h4>
-                                <p>Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge.</p>
-                                <p className="external-link">View Repo on Github</p>
-                            </div>
-                        </div>
                         
-                        <div className="card-tall">
-                            <div className="card-top"></div>
-                            <div className="card-bottom">
-                                <h4>Lorem ipsum dolor amet.</h4>
-                                <p>Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge.</p>
-                                <p className="external-link">View Repo on Github</p>
-                            </div>
-                        </div>
+                        <horizontalCard 
+                            label="Lorem ipsum dolor amet"
+                            description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
+                            linkLabel="View Repo on Github"
+                        />
+
                     </ul> 
 
 
