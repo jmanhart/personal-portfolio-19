@@ -29,7 +29,7 @@ export default class Design extends Component{
 
                     <h3 className="header-type-01">Font Hierarchy</h3>
                     <ul className="font-size">
-                        <li><h1>H1 - Lorem ipsum dolor amet sartorial taxidermy swag, hot chicken actually slow-carb artisan.</h1></li>
+                        <li><h1>H1 - Lorem ipsum dolor amet sartorial taxidermy swag</h1></li>
                         <li><h2>H2 - Lorem ipsum dolor amet sartorial taxidermy swag, hot chicken actually slow-carb artisan.</h2></li>
                         <li><h3>H3 - Lorem ipsum dolor amet sartorial taxidermy swag, hot chicken actually slow-carb artisan.</h3></li>
                         <li><h4>H4 - Lorem ipsum dolor amet sartorial taxidermy swag, hot chicken actually slow-carb artisan.</h4></li>
@@ -57,8 +57,37 @@ export default class Design extends Component{
                         <li></li>
                         <li></li>
                         <li></li>
-    
                     </ul> 
+
+
+                    <h3 className="header-type-01">Buttons, Hovers, & More</h3>
+                    <ul className="button-hovers-more">
+                        <li><h2>This is an <span className="internal-link">internal link</span></h2></li>
+                        <li><h5>This is an <span className="external-link">external link</span></h5></li>
+                    </ul> 
+
+
+                    <h3 className="header-type-01">Cards</h3>
+                    <ul className="button-hovers-more">
+                        <div className="card">
+                            <div className="card-left"></div>
+                            <div className="card-right">
+                                <h4>Lorem ipsum dolor amet.</h4>
+                                <p>Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge.</p>
+                                <p className="external-link">View Repo on Github</p>
+                            </div>
+                        </div>
+                        
+                        <div className="card-tall">
+                            <div className="card-top"></div>
+                            <div className="card-bottom">
+                                <h4>Lorem ipsum dolor amet.</h4>
+                                <p>Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge.</p>
+                                <p className="external-link">View Repo on Github</p>
+                            </div>
+                        </div>
+                    </ul> 
+
 
                 </div>
             </>
