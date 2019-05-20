@@ -8,21 +8,43 @@ import photo from './../../images/me-blk-sun.jpg';
 import './../../App.scss';
 
 // Import Components
-import Grid from '../../components/grid';
-import List from '../../components/list';
+import VerticalCard from '../../components/cards/vertical-card.js';
 
+// Import Data
+import data from './../../data.js';
 
 export default class Home extends Component{
     render(){
         return(
-          <div className="container">
+          <div className="container page">
             <div id="header">
                 <img src={photo} id="profile-image" img="true" alt="Me"/>
-                <h1>Hello, I'm <Link to="/about"><u>John!</u></Link></h1>
-                <h3>A Designer & Developer living in Kansas City and working for <u>Garmin</u>.</h3>
+                <h1>Hello, I'm <Link to="/about" className="internal-link">John!</Link></h1>
+                <h3>A Designer & Developer living in Kansas City and working for Garmin.</h3>
             </div>
-            <Grid />
-            <List />
+            <h3>Case Studies</h3>
+            <div className="layout-grid-columns">
+                <VerticalCard 
+                    pageLink="/case-study/mobile-animations"
+                    label="Animation Process"
+                    description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
+                />
+                <VerticalCard 
+                    pageLink="/case-study/mobile-animations"
+                    label="Mosey"
+                    description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
+                />
+                <VerticalCard 
+                    pageLink="/case-study/mobile-animations"
+                    label="Freebird"
+                    description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
+                />
+                <VerticalCard 
+                    pageLink="/case-study/mobile-animations"
+                    label="Cobb Connection"
+                    description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."        
+                />
+            </div> 
           </div>
           
         )

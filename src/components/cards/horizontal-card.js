@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 
 //Importing Local Styles
 import './../../App.scss';
+import './styles.scss';
 
-
-export default class horizontalCard extends Component{
+export default class HorizontalCard extends Component{
     render(){
         return(
-            <div className="card">
+            <>
+            <div className="horizontal-card">
                 <div className="card-left"></div>
                 <div className="card-right">
                     <h4>{this.props.label}</h4>
@@ -16,8 +17,7 @@ export default class horizontalCard extends Component{
                     <p className="external-link">{this.props.linkLabel}</p>
                 </div>
             </div>
-        );
-    };
+            </>
+        )
+    }
 }
-
-
