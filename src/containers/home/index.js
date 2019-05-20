@@ -10,8 +10,6 @@ import './../../App.scss';
 // Import Components
 import VerticalCard from '../../components/cards/vertical-card.js';
 
-// Import Data
-import data from './../../data.js';
 
 export default class Home extends Component{
     render(){
@@ -20,9 +18,10 @@ export default class Home extends Component{
             <div id="header">
                 <img src={photo} id="profile-image" img="true" alt="Me"/>
                 <h1>Hello, I'm <Link to="/about" className="internal-link">John!</Link></h1>
-                <h3>A Designer & Developer living in Kansas City and working for Garmin.</h3>
+                <h2>A Designer & Developer living in Kansas City. <br />
+                Currently at Garmin.</h2>
             </div>
-            <h3>Case Studies</h3>
+            <h3 className="header-type-01">Recent Work</h3>
             <div className="layout-grid-columns">
                 <VerticalCard 
                     pageLink="/case-study/mobile-animations"
@@ -44,24 +43,8 @@ export default class Home extends Component{
                     label="Cobb Connection"
                     description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."        
                 />
-            </div> 
+            </div>
           </div>
-          
         )
     }
 }
-
-{/*
-
-            <Grid 
-                path={data.path}
-                title={data.title}
-                description={data.description}
-            />
-
-            <Grid 
-                path={data.path}
-                title={data.title}
-                description={data.description}
-            />
-*/}

@@ -98,6 +98,7 @@ export default class Design extends Component{
                     <h3 className="header-type-01">Vertical Cards</h3>
                     <div className="layout-grid-columns">
                         <VerticalCard 
+                            pageLink="nope"
                             label="Lorem ipsum dolor amet"
                             description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
                             linkLabel="View Repo on Github"
@@ -105,6 +106,7 @@ export default class Design extends Component{
                         />
 
                         <VerticalCard 
+                            pageLink="nope"
                             label="Lorem ipsum dolor amet"
                             description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
                             linkLabel="View Repo on Github"
