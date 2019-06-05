@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-// Importing Image assets
-import photo from './../../images/me-blk-sun.jpg';
-
 // import styles
 import './../../App.scss';
 

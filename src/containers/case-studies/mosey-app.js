@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-// Importing Image assets
-import photo from './../../images/me-blk-sun.jpg';
-
 // import Global Styles
 import './../../App.scss';
 
@@ -33,7 +30,7 @@ export default class MoseyApp extends Component{
                     </div>
                 </div>
                 <div className="full-image top">
-                    <img />
+               
                 </div>
                 <div className="container">
                     <div id="about">
