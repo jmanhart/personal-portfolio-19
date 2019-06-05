@@ -185,7 +185,7 @@ h1{
 h2{
     font-size: $type-06;
     line-height: $type-09;
-    font-weight: $type-weight-medium;
+    font-weight: $type-weight-regular;
     margin-bottom: $spacing-03;
 }
 
@@ -200,11 +200,13 @@ h4 {
     font-size: $type-03;
     line-height: $type-07;
     font-weight: $type-weight-bold;
+    margin-bottom: $spacing-03;
 }
 h5 {
     font-size: $type-03;
     line-height: $type-07;
     font-weight: $type-weight-regular;
+    margin-bottom: $spacing-03;
 }
 p {
     font-size: $type-02;
@@ -355,8 +357,8 @@ a:-webkit-any-link {
 
 //This is the photo of me!
 #profile-image{
-    width: 8em;
-    height: 8em;
+    width: $layout-07;
+    height: $layout-07;
     margin-bottom: $layout-01;
 }
 
@@ -399,7 +401,7 @@ a:-webkit-any-link {
 
 .layout-grid-columns{
     display: flex;
-    flex-basis: auto;
+    // flex-basis: auto;
     flex-direction: row;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -411,8 +413,8 @@ a:-webkit-any-link {
     float: left;
     width: 100%;
     margin-top: 0em;
-    margin-bottom: $layout-07;
-    max-width: 600px;
+    margin-bottom: $layout-05;
+    max-width: 800px;
 }
 
 // #about {
@@ -443,5 +445,13 @@ a:-webkit-any-link {
     margin-bottom: $layout-07;
 }
 
+
+.timeline{
+    padding-left: $spacing-06;
+    border-left: 1px solid rgba(0,0,0,.3);
+    li{
+        margin-bottom: $spacing-09;
+    }
+}
 
 

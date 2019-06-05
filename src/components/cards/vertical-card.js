@@ -8,16 +8,15 @@ import './styles.scss';
 export default class VerticalCard extends Component{
     render(){
         return(
-            <Link to={this.props.pageLink}>
-                <div className="vertical-card">
+            <div className="vertical-card">
+                <Link to={this.props.pageLink}>
                     <div className="card-top"></div>
                     <div className="card-bottom">
-                        <h4>{this.props.label}</h4>
+                        <h5>{this.props.label}</h5>
                         <p>{this.props.description}</p>
-                        <p className="external-link">{this.props.pageLink}</p>
                     </div>
-                </div>
-            </Link>
+                </Link>
+            </div>
         )
     }
 }
