@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { ThemeProvider } from 'emotion-theming'
+
+import theme from '../src/utils/theme.js';
 
 // Importing in Routes
 import Main from './main.js'
@@ -13,10 +16,12 @@ import './App.scss';
 export default class App extends Component{
     render(){
         return(
-          <div id="app-container">
-            <Main />
-            <Footer />
-          </div >
+          <ThemeProvider theme={theme}>
+            <div id="app-container">
+              <Main />
+              <Footer />
+            </div >
+          </ThemeProvider>
         )
     }
 }

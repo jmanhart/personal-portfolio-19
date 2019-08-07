@@ -1,6 +1,8 @@
 import React, { Component, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import styled from 'react-emotion';
+
 // Importing Image assets
 import photo from './../../images/me-blk-sun.jpg';
 
@@ -18,6 +20,7 @@ export default class Home extends Component{
           <div className="container page">
             <ExampleII />
             <h3 className="header-type-01">Recent Work</h3>
+            <Header>HOWDY</Header>
             <div className="layout-grid-columns">
                 <VerticalCard 
                     pageLink="/case-study/mobile-animations"
@@ -44,3 +47,9 @@ export default class Home extends Component{
         )
     }
 }
+
+
+const Header = styled('span')`
+    font-size: 3em;
+    color: ${p => p.theme.gray5};
+`;
