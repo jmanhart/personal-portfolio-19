@@ -86,8 +86,72 @@ const colors = {
     ]
 }
 
+const spacers = {
+    /* Spacing scale within components */
+    spacing: [
+        '0',
+        '0.125rem',
+        '0.25rem',
+        '0.5rem',
+        '0.75rem',
+        '1rem',
+        '1.5rem',
+        '2rem',
+        '2.5rem',
+        '3rem'
+
+    ],
+    /* Layout scale for spacing between components */
+    layout: [
+        '0',
+        '1rem',
+        '1.5rem',
+        '2rem',
+        '3rem',	
+        '4rem',	
+        '6rem',
+        '10rem'
+    ]
+}
+
+const type = {
+    family: {
+        sans: 'Work Sans,sans-serif',
+        serif: 'serif',
+        code: 'monaco'
+    },
+    size: [
+        '0',
+        '0.75rem',
+        '1rem',
+        '1.25rem',
+        '1.5rem',
+        '1.75rem',
+        '2rem',
+        '2.25rem',
+        '3rem',
+        '3.25rem',
+        '3.5rem'
+    ],
+    weight: [
+        'initial',
+        '100',
+        '200',
+        '300',
+        '400',
+        '500',
+        '600',
+        '700',
+        '800',
+        '900',
+        '1000',
+    ]
+}
+
 const theme = {
     ...colors,
+    ...spacers,
+    type
 }
 
 export default theme;

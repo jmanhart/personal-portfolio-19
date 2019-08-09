@@ -50,6 +50,9 @@ export default class Home extends Component{
 
 
 const Header = styled('span')`
-    font-size: 3em;
-    color: ${p => p.theme.gray[4]};
+    padding: ${p => p.theme.spacing[4]};
+    font-size: ${p => p.theme.type.size[2]};
+    font-weight: ${p => p.theme.type.weight[0]};
+    color: ${p => p.theme.gray[5]};
+    font-family: ${p =>p.theme.type.family.sans};
 `;
