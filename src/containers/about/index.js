@@ -19,7 +19,13 @@ export default class About extends Component{
                     <h3 className="header-type-01">Timeline</h3>
                     <ul className="timeline">
                         <li>
-                            <h5>2017 – Present</h5>
+                            <h5>2019 – Present</h5>
+                            <h1>Sentry</h1>
+                            <h3>Product Designer</h3>
+                            <p>Working apart a large UX team with a focus on features for the vívo series of wearables Garmin Connect mobile application. Worked with a diverse team of business analysts, mobile developers (iOS & Android), QA, UX researchers, and platform designers.</p>
+                        </li>
+                        <li>
+                            <h5>2017 – 2019</h5>
                             <h1>Garmin</h1>
                             <h3>UX Designer</h3>
                             <p>Working apart a large UX team with a focus on features for the vívo series of wearables Garmin Connect mobile application. Worked with a diverse team of business analysts, mobile developers (iOS & Android), QA, UX researchers, and platform designers.</p>
