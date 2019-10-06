@@ -2,7 +2,7 @@
   "name": "port-19",
   "version": "0.1.0",
   "private": true,
-  "homepage": "manhart.io",
+  "homepage": "https://manhart.io/",
   "dependencies": {
     "dynamics.js": "^1.1.5",
     "emotion": "^10.0.14",
