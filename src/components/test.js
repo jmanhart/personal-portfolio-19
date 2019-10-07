@@ -22,7 +22,7 @@ export default function ExampleII() {
         "Hullo,",
         "Hola,",
         "Ciao,",
-        "👋🏻,",
+        "👋🏻",
         "Hej,",
         "Bonjour,",
         "Oh hey,",
@@ -37,9 +37,9 @@ export default function ExampleII() {
         <>
             <div id="header">
                 <img src={photo} id="profile-image" img="true" alt="Me"/>
-                <h1 className="DUDE">{greeting[rando]} I'm <Link to="/about" className="internal-link">John!</Link></h1>
-                <h2>A Product Designer living in Kansas City. <br />
-                Currently at <a href="https://sentry.io/welcome/" className="external-link">Sentry</a></h2>
+                <h1 className="DUDE">{greeting[rando]} I'm John!</h1>
+                <h2>A Product Designer living in Kansas City.</h2>
+                <h2>Currently at <a href="https://sentry.io/welcome/" className="external-link">Sentry</a></h2>
             </div>
         </>
     );

@@ -48,3 +48,31 @@ export default class Grid extends Component{
         <p>{item.description}</p>
     </Link>
 */}
+
+{/* 
+    <h3 className="header-type-01">Recent Work</h3>
+    <Header>HOWDY</Header>
+    
+    <div className="layout-grid-columns">
+        <VerticalCard 
+            pageLink="/case-study/mobile-animations"
+            label="Lottie"
+            description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
+        />
+        <VerticalCard 
+            pageLink="/case-study/mobile-animations"
+            label="Mosey"
+            description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
+        />
+        <VerticalCard 
+            pageLink="/case-study/mobile-animations"
+            label="Garmin Design System"
+            description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."
+        />
+        <VerticalCard 
+            pageLink="/case-study/mobile-animations"
+            label="Voice"
+            description="Disrupt stumptown gastropub locavore art party. Direct trade listicle selvge."        
+        />
+    </div>
+    */}

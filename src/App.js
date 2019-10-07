@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { ThemeProvider } from 'emotion-theming'
+import { ThemeProvider } from 'emotion-theming';
 import theme from '../src/utils/theme.js';
+
+import {Helmet} from "react-helmet";
 
 // Importing in Routes
 import Main from './main.js'
@@ -17,8 +19,11 @@ export default class App extends Component{
         return(
           <ThemeProvider theme={theme}>
             <div id="app-container">
+              <Helmet>
+                <meta charSet="utf-8" />
+                <title>Manhart</title>
+              </Helmet>
               <Main />
-              <Footer />
             </div >
           </ThemeProvider>
         )
