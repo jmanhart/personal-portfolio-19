@@ -1,13 +1,21 @@
 import React from 'react';
 import styled from 'react-emotion';
 
+// Importing Data
+import data from './../../data.js';
+
 export default function SocialMediaBlock() {
     return(
         <SocialMedia>
-            <li><h5><a href="https://github.com/jmanhart" className="external-link">Github</a></h5></li>
-            <li><h5><a href="https://twitter.com/JohnManhart" className="external-link">Twitter</a></h5></li>
-            <li><h5><a href="https://www.linkedin.com/in/john-manhart/" className="external-link">Linkedin</a></h5></li>
-            <li><h5><a href="https://medium.com/@JohnManhart" className="external-link">Medium</a></h5></li>
+            {data.socialmedia.map((item, index) => {
+                return(
+                    <li key={index}>
+                        <h5>
+                            <a href={item.path} className="external-link">{item.title}</a>
+                        </h5>
+                    </li>
+                )
+            })}
         </SocialMedia> 
     )
 }
@@ -18,3 +26,4 @@ const SocialMedia = styled('div')`
         padding-right: 1.5em;
     }
 `;
+

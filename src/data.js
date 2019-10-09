@@ -1,4 +1,23 @@
 const data = {
+    "greetings": [
+        "Hello,",
+        "Hi,",
+        "Howdy,",
+        "Hiya,",
+        "Yo,",
+        "Aloha,",
+        "Sup,",
+        "Hullo,",
+        "Hola,",
+        "Hallo,",
+        "Ciao,",
+        "👋🏻",
+        "Hej,",
+        "Bonjour,",
+        "Oh hey,",
+        "여보세요,",
+        "Salut,"
+    ],
     "socialmedia": [
         {
             "id":"github",

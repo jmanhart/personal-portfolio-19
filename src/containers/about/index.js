@@ -12,9 +12,9 @@ export default class About extends Component{
             <>
                 <ButtonBack buttonLabel="Back" linkToPath="/" />
                 <div className="container page">
-                    <h1>So just a little be about me eh</h1>
-                    <h2>Tote bag live-edge vinyl, marfa four dollar toast meh polaroid fixie. Hashtag shaman marfa. </h2>
-                    <p>Lorem ipsum dolor amet sartorial taxidermy swag, hot chicken actually slow-carb artisan 3 wolf moon celiac man braid four loko before they sold out shabby chic. Knausgaard woke flannel prism hot chicken put a bird on it. Master cleanse lumbersexual messenger bag vexillologist. Echo park hot chicken neutra, cold-pressed sustainable leggings +1 tofu dreamcatcher. Disrupt stumptown gastropub locavore art party.</p>
+                    <h1>Hello again!</h1>
+                    <h2>I'm a currently a product designer at Sentry.</h2>
+                    <p>In the past I've worked for Garmin building design systems and before that I was desiging and developing web & mobile applications for an advertsi</p>
 
                     <h3 className="header-type-01">Timeline</h3>
                     <ul className="timeline">
