@@ -26,4 +26,3 @@ const SocialMedia = styled('div')`
         padding-right: 1.5em;
     }
 `;
-

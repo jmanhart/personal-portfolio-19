@@ -3,10 +3,6 @@ import { Switch, Route } from 'react-router-dom'
 
 import Home from './containers/home/index.js';
 import About from './containers/about/index.js';
-
-
-
-//Importing Case Studies
 import MobileAnimations from './containers/case-studies/mobile-animations';
 import MoseyApp from './containers/case-studies/mosey-app.js';
 import FreeBird from './containers/case-studies/free-bird.js';

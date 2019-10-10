@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 // import styles
 import './../../App.scss';
 
-
 // Importing Components
 import ButtonBack from '../../components/buttons/button-back.js';
 import HorizontalCard from '../../components/cards/horizontal-card.js';
