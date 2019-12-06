@@ -11,6 +11,7 @@ import './styles.scss';
 import data from './../../data.js'
 
 // Importing Components
+import BasicPage from '../../components/containers/BasicPageWrapper.js'
 import ButtonBack from '../../components/buttons/button-back';
 import BasicContainer from '../../components/containers/basic.js';
 import ImageContainerWrapper from '../../components/containers/image.js';
@@ -23,7 +24,7 @@ const arrOrder = 1
 export default class MoseyApp extends Component{
     render(){
         return(
-            <PageWrapper>
+            <BasicPage>
                 <ButtonBack buttonLabel="Back" linkToPath="/" />
                 <BasicContainer>
                     <div id="header">
@@ -43,15 +44,7 @@ export default class MoseyApp extends Component{
                         </p>
                     </div>
                 </BasicContainer>
-            </PageWrapper>
+            </BasicPage>
         )
     }
 }
-
-const PageWrapper = styled('div')`
-    box-sizing: border-box;
-    margin: 10rem auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-`

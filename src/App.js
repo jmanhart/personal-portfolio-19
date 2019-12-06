@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ThemeProvider } from 'emotion-theming';
-import theme from '../src/utils/theme.js';
+
+
 
 import {Helmet} from "react-helmet";
 
@@ -17,7 +17,7 @@ import './App.scss';
 export default class App extends Component{
     render(){
         return(
-          <ThemeProvider theme={theme}>
+         
             <div id="app-container">
               <Helmet>
                 <meta charSet="utf-8" />
@@ -34,8 +34,8 @@ export default class App extends Component{
                 </script>
               </Helmet>
               <Main />
-            </div >
-          </ThemeProvider>
+            </div>
+   
         )
     }
 }
