@@ -9,6 +9,8 @@ import FreeBird from './containers/case-studies/free-bird.js';
 import CobbApp from './containers/case-studies/cobb-app.js';
 import Design from './containers/design/index.js';
 
+import PitchPage from './containers/pages/Pitch.js';
+
 
 const Main = () => (
   <main>
@@ -21,6 +23,7 @@ const Main = () => (
       <Route path='/case-study/mosey-app' component={MoseyApp}/>
       <Route path='/case-study/free-bird' component={FreeBird}/>
       <Route path='/case-study/cobb-app' component={CobbApp}/>
+      <Route path='/pitch' component={PitchPage}/>
     </Switch>
   </main>
 )
