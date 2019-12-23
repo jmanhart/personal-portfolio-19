@@ -4,9 +4,13 @@ import styled from 'react-emotion';
 // import styles
 import './../../App.scss';
 
+// Importing Data
+import data from './../../data.js';
+
 
 import BasicPage from '../../components/containers/BasicPageWrapper.js';
 import BasicContainer from '../../components/containers/basic.js';
+import PitchPointTable from '../../components/pitch/pitchTable.js';
 
 const PitchPage = () => {
   return (
@@ -21,16 +25,7 @@ const PitchPage = () => {
 
         <BasicContainer>
 
-            <PitchTable>
-                <PitchTableRow>
-                    <PitchTableCell>Ace - 1 pt</PitchTableCell>
-                    <PitchTableCell>Highest Card Avilable</PitchTableCell>
-                </PitchTableRow>
-                <PitchTableRow>
-                    <PitchTableCell>King - 0 pt</PitchTableCell>
-                    <PitchTableCell>Second highest card and catchs every suit below.</PitchTableCell>
-                </PitchTableRow>
-            </PitchTable>
+           <PitchPointTable />
 
         </BasicContainer>
 
@@ -75,6 +70,9 @@ const PitchTableRow = styled('div')`
 const PitchTableCell = styled('div')`
     background: yellow;
     border: 1px solid black;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 `
 
 const PitchList = styled('ul')`
