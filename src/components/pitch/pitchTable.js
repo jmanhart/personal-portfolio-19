@@ -61,19 +61,22 @@ const pitchPointData = {
 
 
 
+
 const PitchPointTable = () => {
-  return (
-    <PitchTable>
-        {pitchPointData.pointsTable.map((item, index) => {
-            return(
-                <PitchTableRow key={index}>
-                    <PitchTableCell><h3>{item.title}</h3></PitchTableCell>
-                    <PitchTableCell><h3>{item.description}</h3></PitchTableCell>
-                </PitchTableRow>
-            )
-        })}
-    </PitchTable>
-  );
+
+    return (
+    
+        <PitchTable>
+            {pitchPointData.pointsTable.map((item, index) => {
+                return(
+                    <PitchTableRow key={index}>
+                        <PitchTableCell><h3>{item.title}</h3></PitchTableCell>
+                        <PitchTableCell><h3>{item.description}</h3></PitchTableCell>
+                    </PitchTableRow>
+                )
+            })}
+        </PitchTable>
+    );
 };
 
 export default PitchPointTable;
