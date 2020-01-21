@@ -10,6 +10,7 @@ import CobbApp from "./containers/case-studies/cobb-app.js";
 import Design from "./containers/design/index.js";
 
 import PitchPage from "./containers/pages/Pitch.js";
+import SandBox from "./containers/pages/Sandbox.js";
 
 const Main = () => (
   <main>
@@ -26,6 +27,7 @@ const Main = () => (
       <Route path="/case-study/free-bird" component={FreeBird} />
       <Route path="/case-study/cobb-app" component={CobbApp} />
       <Route path="/pitch" component={PitchPage} />
+      <Route path="/sandbox" component={SandBox} />
     </Switch>
   </main>
 );

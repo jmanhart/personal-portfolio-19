@@ -7,7 +7,7 @@ import Main from "./main.js";
 
 // Importing in Components
 // import AppFooter from './components/app-footer/index.js';
-import Footer from "./components/footer/index.js";
+// import Footer from "./components/footer/index.js";
 
 // Importing in Styles
 import "./App.scss";
