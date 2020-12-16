@@ -32,7 +32,7 @@ const SandBox = () => {
       <BasicContainer>
         <motion.div
           style={{
-            background: onScreen ? "green" : "blue",
+            /* background: onScreen ? "green" : "blue",*/
             width: "100%",
             height: "10em",
             marginBottom: "2em"

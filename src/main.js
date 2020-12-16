@@ -8,6 +8,8 @@ import MoseyApp from "./containers/case-studies/mosey-app.js";
 import FreeBird from "./containers/case-studies/free-bird.js";
 import CobbApp from "./containers/case-studies/cobb-app.js";
 import Design from "./containers/design/index.js";
+import Coffee from "./containers/coffee/index.js";
+import Kalita from "./containers/coffee/kalita.js";
 
 import PitchPage from "./containers/pages/Pitch.js";
 import SandBox from "./containers/pages/Sandbox.js";
@@ -18,6 +20,9 @@ const Main = () => (
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/design" component={Design} />
+      <Route path="/coffee" component={Coffee} />
+      <Route path="/coffee/kalita" component={Kalita} />
+
       {/* Case Studies */}
       <Route
         path="/case-study/mobile-animations"
